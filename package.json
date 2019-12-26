@@ -64,5 +64,5 @@
   "peerDependencies": {
     "leaflet.markercluster": "^1.4.1"
   },
-  "proxy": "http://localhost"
+  "proxy": "http://tangjayce.cn"
 }
