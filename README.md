@@ -1,5 +1,13 @@
 # 我的webGIS前端内容
+
 使用react脚手架创建的项目
+
+- 前端UI框架 : antd
+- 地图JavaScript库: leaflet（react-leaflet）
+- 数据库：mysql（mysql支持空间数据存储）
+- 数据交互：ajax异步获取json数据（再自己转换成geojson数据，leaflet支持geojson数据）
+
+项目效果：[点击这里](http://tangjayce.cn)（首页放了一张分辨率很高的地图，首次加载可能比较慢）
 
 ### 使用：
 
