@@ -1,0 +1,68 @@
+{
+  "name": "ofo_system",
+  "version": "0.1.0",
+  "homepage": "./",
+  "private": true,
+  "dependencies": {
+    "@antv/l7": "^1.4.9",
+    "@antv/l7-maps": "latest",
+    "antd": "^3.26.0",
+    "axios": "^0.19.0",
+    "babel-plugin-import": "^1.13.0",
+    "customize-cra": "^0.9.1",
+    "jsonp": "^0.2.1",
+    "leaflet": "^1.6.0",
+    "leaflet-draw": "^1.0.4",
+    "leaflet.markercluster": "^1.4.1",
+    "leaflet.pattern": "^0.1.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "moment": "^2.24.0",
+    "ol": "^6.1.1",
+    "prop-types": "^15.7.2",
+    "qs": "latest",
+    "react": "^16.12.0",
+    "react-app-rewired": "^2.1.5",
+    "react-dom": "^16.12.0",
+    "react-leaflet": "^2.6.1",
+    "react-leaflet-control": "^2.1.1",
+    "react-leaflet-draw": "^0.19.0",
+    "react-leaflet-geojson-patterns": "^1.1.0",
+    "react-leaflet-markercluster": "^2.0.0-rc3",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "gh-pages": "react-app-rewired build && gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "peerDependencies": {
+    "leaflet.markercluster": "^1.4.1"
+  },
+  "proxy": "http://localhost"
+}

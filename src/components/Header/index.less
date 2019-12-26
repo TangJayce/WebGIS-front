@@ -1,0 +1,40 @@
+@import "./../../style/common";
+.header{
+  .header-top{
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: right;
+    a{
+      margin-left: 40px;
+    }
+  }
+  .breadcrumb{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-top: 2px solid #f9c700;
+    h2{
+      margin: -1px;
+    }
+    .breadcrumb-title{
+      text-align: center;
+      &:after{
+        position: absolute;
+        content: '';
+        left: 100px;
+        border-top: 12px solid white;
+        border-left: 12px solid @mybgk;
+        border-right: 12px solid @mybgk;
+        background-color: red;
+        z-index: 1;
+      }
+    }
+    .tip{
+      text-align: right;
+      .weather{
+        margin-left: 20px;
+      }
+    }
+  }
+}

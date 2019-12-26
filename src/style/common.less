@@ -1,0 +1,46 @@
+@import url('~react-leaflet-markercluster/dist/styles.min.css');  //导入leaflet聚点的css文件
+@import url('~leaflet-draw/dist/leaflet.draw.css');  //导入leaflet编辑功能的css文件
+@mybgk: #f5f5f5; //页面背景色
+
+.container{
+  .nav-left{
+    height: calc(100vh);
+    background: #001529;
+  }
+  .main{
+    height: calc(100vh);
+    overflow: auto;
+  }
+  .content{
+    position: relative;
+    padding: 20px;
+    background-color: @mybgk;
+  }
+}
+
+.sample-header{
+  height: 70px;
+  line-height: 70px;
+  padding: 0 50px;
+  background-color: blue;
+  text-align: right;
+  a{
+    margin-left: 40px;
+  }
+  span{
+    color: #c8c8c8;
+  }
+  img{
+    width: 50px;
+  }
+  h1{
+    color: #c8c8c8;
+    display: inline;
+    vertical-align: middle;
+    margin-left:20px;
+  }
+}
+
+.sr-only {
+  display: none;
+}
